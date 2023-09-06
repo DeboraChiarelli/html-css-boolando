@@ -114,3 +114,13 @@ figure > img {
 .price-grey {
      text-decoration: line-through;
 }
+
+.img-top  {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+}
+
+.img-top:hover {
+    opacity: 1;
+}
