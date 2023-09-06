@@ -28,10 +28,9 @@ figure > img {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto; 
-    padding: 20px;
-    padding-top: 20px;
+    min-height: 20px;
 }
 
 .row {
@@ -40,7 +39,7 @@ figure > img {
 }
 
 .row-header {
-    justify-content: space-around;   
+    justify-content: space-between;   
     align-items: center;
 }
 
@@ -69,30 +68,37 @@ figure > img {
     display: block;
 	position: absolute;
 	top: 15px;
-    left: 250px;
-	width: 100%;
+    left: 380px;
+	width: 30px;
 	background-color: white;
 	font-size: 25px;
 	color: black;
+    text-align: center;
 }
 
 .sale {
     display: block;
 	position: absolute;
-	bottom: 50px;
-	width: 100%;
+	bottom: 70px;
+	width: 50px;
 	background-color: red;
 	font-size: 20px;
 	color: white;
+    text-align: center;
 }
 
 .sust  {
     display: block;
 	position: absolute;
-	bottom: 50px;
-    left: 70px;
-	width: 100%;
+	bottom: 70px;
+    left: 55px;
+	width: 100px;
 	background-color: green;
 	font-size: 20px;
 	color: white;
+}
+
+.price-red  {
+    color: red;
+    font-size: 15px;
 }
