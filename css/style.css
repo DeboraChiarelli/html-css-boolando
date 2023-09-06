@@ -6,7 +6,6 @@
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 img {
@@ -28,7 +27,7 @@ figure > img {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 1000px;
     margin: 0 auto; 
     min-height: 20px;
 }
@@ -68,7 +67,7 @@ figure > img {
     display: block;
 	position: absolute;
 	top: 15px;
-    left: 380px;
+    left: 265px;
 	width: 30px;
 	background-color: white;
 	font-size: 25px;
@@ -101,4 +100,17 @@ figure > img {
 .price-red  {
     color: red;
     font-size: 15px;
+}
+
+.bg-blackgrey {
+    background-color: rgb(66, 66, 66);
+    padding: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.price-grey {
+     text-decoration: line-through;
 }
